@@ -1,3 +1,5 @@
 main(){
-  print("hello world");
+  var first='hello';//takes it as string.
+  String last ='world';
+  print(first +' '+ last);
 }
