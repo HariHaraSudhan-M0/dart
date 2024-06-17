@@ -1,5 +1,6 @@
+import 'dart:io';
 main(){
-  var first='hello';//takes it as string.
-  String last ='world';
-  print(first +' '+ last);
+  stdout.writeln("enter name:");
+  var name = stdin.readLineSync();
+  print("entered name is $name");
 }
