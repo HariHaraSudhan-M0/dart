@@ -1,6 +1,9 @@
 import 'dart:io';
-main(){
-  stdout.writeln("enter name:");
-  var name = stdin.readLineSync();
-  print("entered name is $name");
+
+void main()
+{
+    stdout.writeln('Type in your name please');
+    String? input = stdin.readLineSync();
+
+    stdout.writeln('Hi $input nice to meet u ');
 }
