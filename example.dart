@@ -1,6 +1,9 @@
 void main(){
-  var name = {'swetha','suvetha'};
-  for(var x in name){
-    print(x);
-  }
+  var exercise ={
+    'chest':'bench press',
+    'shoulder':'lateral rises',
+    'tricep':'pushdowns'
+  };
+    print(exercise);
+  
 }
